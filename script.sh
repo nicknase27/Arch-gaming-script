@@ -21,3 +21,5 @@ git clone https://github.com/Jguer/yay.git
 cd yay
 
 makepkg -si --noconfirm
+
+yay -S spotify multimc5 --noconfirm
