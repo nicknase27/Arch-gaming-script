@@ -10,7 +10,7 @@ sudo pacman -S nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulka
 
 sudo pacman -S wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32 --noconfirm
 
-sudo pacman -S flameshot i3-gaps neofetch --noconfirm
+sudo pacman -S flameshot i3-gaps neofetch  zsh --noconfirm
 
 sudo pacman -S gamemode lib32-gamemode --noconfirm
 
