@@ -14,7 +14,7 @@ sudo pacman -S flameshot i3-gaps neofetch  zsh --noconfirm
 
 sudo pacman -S gamemode lib32-gamemode --noconfirm
 
-sudo pacman -S steam lutris discord-canary ntfs-3g --noconfirm
+sudo pacman -S steam lutris discord-canary --noconfirm
 
 git clone https://github.com/Jguer/yay.git
 
