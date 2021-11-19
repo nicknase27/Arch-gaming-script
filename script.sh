@@ -25,3 +25,9 @@ makepkg -si --noconfirm
 yay -S spotify-adblock multimc5  oh-my-zsh-git freetube grapejuice-git cava unimatrix --noconfirm
 
 wget https://raw.githubusercontent.com/endeavouros-team/endeavouros-i3wm-setup/main/setup.sh
+
+git clone https://github.com/Chick2D/neofetch-themes.git
+
+cd neofetch-themes-main/small
+
+sudo mv blockfetch.conf /.config/neofetch
