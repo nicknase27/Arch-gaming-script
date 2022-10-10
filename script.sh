@@ -9,8 +9,8 @@ sudo chown nick:nick Documents Downloads Picutres Movies Music
 sudo mkdir git
 sudo chown nick:nick git
 cd git
-git clone https://github.com/Jguer/yay.git
-cd yay
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
 makepkg -si
 cd
 
