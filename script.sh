@@ -6,7 +6,8 @@ sudo pacman -Syu
 sudo mkdir Documents Downloads Picutres Movies Music
 sudo chown nick:nick Documents Downloads Picutres Movies Music
 
-mkdir git && cd git 
+sudo mkdir git && chown nick:nick git
+cd git
 git clone https://github.com/Jguer/yay.git
 cd yay
 makepkg -si
