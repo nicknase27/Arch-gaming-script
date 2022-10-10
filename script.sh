@@ -13,8 +13,7 @@ cd yay
 makepkg -si
 cd
 
-sudo pacman -S alacritty rofi dmenu discord dunst fish nvidia nvidia-settings flameshot picom nitrogen neovim pfetch compsize polybar bitwarden
-yay -S brave-bin spotify-adblock
+yay -S brave-bin spotify-adblock alacritty rofi dmenu discord dunst fish nvidia nvidia-settings flameshot picom nitrogen neovim pfetch compsize polybar bitwarden
 
 
 cd git
