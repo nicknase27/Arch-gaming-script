@@ -1,19 +1,20 @@
 cd /home/nick/
 
 sudo pacman -Syu
-su nick 
+sudo pacman -S base-devel
 
 sudo mkdir Documents Downloads Picutres Movies Music
 sudo chown nick:nick Documents Downloads Picutres Movies Music
 
-sudo mkdir git && chown nick:nick git
+sudo mkdir git
+sudo chown nick:nick git
 cd git
 git clone https://github.com/Jguer/yay.git
 cd yay
 makepkg -si
 cd
 
-sudo pacman -S alacritty rofi dmenu discord dunst fish nvidia nvidia-settings flameshot nitrogen neovim compsize polybar bitwarden
+sudo pacman -S bspwm sxhkd alacritty rofi dmenu discord dunst fish nvidia nvidia-settings flameshot nitrogen neovim compsize polybar bitwarden
 yay -S brave-bin spotify-adblock pfetch picom-pijulius-git
 
 
