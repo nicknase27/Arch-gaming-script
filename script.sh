@@ -21,13 +21,16 @@ yay -S brave-bin spotify-adblock pfetch picom-pijulius-git
 cd git
 git clone https://github.com/nicknase27/dotfiles-new.git
 cd dotfiles-new
-cp -r bspwm/ ~/.config && chmod +x bspwmrc
-cp -r sxhkd/ ~/.config && chmod +x sxhkdrc
+cp -r bspwm/ ~/.config 
+cp -r sxhkd/ ~/.config 
 cp -r alacritty/ ~/.config
 cp -r fish/ ~/.config
 cp -r dunst/ ~/.config
 cp -r polybar/ ~/.config
 cp -r rofi/ ~/.config
+cd ~/.config/bspwm/ && sudo chmod +x bspwmrc
+cd ..
+cd sxhkd/ && sudo chmod +x sxhkdrc
 cd
 
 sudo chsh 
