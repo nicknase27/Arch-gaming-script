@@ -26,7 +26,7 @@ cp -r sxhkd/ ~/.config
 cp -r alacritty/ ~/.config
 cp -r fish/ ~/.config
 cp -r dunst/ ~/.config
-cp -r polybar/ ~/.config
+#cp -r polybar/ ~/.config ## requires too much work to ship "just like that"
 cp -r rofi/ ~/.config
 cd ~/.config/bspwm/ && sudo chmod +x bspwmrc
 cd ..
@@ -36,6 +36,7 @@ cd
 sudo chsh 
 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+fish
 omf install lambda
 
 pfetch
